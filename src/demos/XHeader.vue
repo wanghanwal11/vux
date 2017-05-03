@@ -7,7 +7,7 @@
     <br>
     <x-header :left-options="{backText: ''}">set empty back text</x-header>
     <br>
-    <x-header :right-options="{showMore: true}" @on-click-more="showMenus = true">with more menu</x-header>
+    <x-header>with more menu</x-header>
     <br>
     <x-header>with right link<a slot="right">Feedback</a></x-header>
     <br>
